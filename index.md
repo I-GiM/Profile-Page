@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Profile Page - Ikenna Oyiih</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="aside">
+            <img class="profile-image" src="https://bit.ly/3crABsv" alt="profile-image">
+            <p class="bio name">Ikenna Oyiih</p>
+            <p class="bio web">WEB DEVELOPER</p>
+            <p class="bio">ENUGU STATE</p>
+            <p class="bio">06 DECEMBER, 1990</p>
+            <p class="bio">C163 FEPA QUARTERS, FHA KARU, ABUJA</p>
+            <p class="bio">UNEMPLOYED</p>
+            <p class="bio">UMUOKA VILLAGE, UDI TOWN, UDI LGA</p>
+            <p class="bio">@GiM</p>
+            <div class="socials">
+                <a href="https://bit.ly/3bfTtun" target="blank_"><img class="socials-ico" src="https://bit.ly/2KfgtxH" alt="Facebook" title="Go to Facebook"></a>
+                <a href="https://bit.ly/3bk8mfy" target="blank_"><img class="socials-ico" src="https://bit.ly/2K9XHbc" alt="Twitter" title="Follow on Twitter"></a>
+                <a href="https://bit.ly/2VcSd5T" target="blank_"><img class="socials-ico" src="https://bit.ly/2XEBxpx" alt="GitHub" title="Follow on GitHub"></a>
+                <a href="https://bit.ly/3a8Gnhi" target="blank_"><img class="socials-ico" src="https://bit.ly/2RGIX7W" alt="Instagram" title="Follow on Instagram"></a>
+                <a href="https://bit.ly/2KaX1Ck" target="blank_"><img class="socials-ico five" src="https://bit.ly/2z8Dqkd" alt="LinkedIn" title="Connect on LinkedIn"></a>        
+            </div>
+        </div>
+        
+        <div class="main">
+            <div class="summary">
+                <span class="sect-top">WHO AM I?</span>
+                <div class="bio-sum">
+                    <h2 class="my-name">I am Ikenna...</h2>
+                    <p class="bio-sum-text">
+                        ...Lover of God, balance, and on-the-edge. I have no magnified interest in
+                        people but I am more than willing to help if I can. I currently have an average skill level in
+                        using HTML/CSS, still learning JavaScript and React -  React seems cool. There isn't much that interests me so I am always indoors and will indulge an activity if need be.<br>
+                        What then do I like to do? Simple; pressing computer, random sketches, dance (retired), anime/manga/manhwa (I am no weebo!), taking internet tours,
+                        gaming (this has drastically reduced to just FIFA though), chatting with people who I find interesting,
+                        spinning abstract theories; pretty much it.
+                    </p>
+                </div>
+            </div>
+            <div class="main-bottom">
+                <div class="skills">
+                    <span class="sect-top-2">SKILLS</span>
+                    <div class="sum">
+                        <div class="skill-set">
+                            <span class="s-set">DESIGN</span>
+                            <span class="s-set-2">50%</span>
+                        </div>
+                        <div class="skill-set">
+                            <span class="s-set">HTML/CSS</span>
+                            <span class="s-set-2">40%</span>
+                        </div>
+                        <div class="skill-set">
+                            <span class="s-set">JAVASCRIPT</span>
+                            <span class="s-set-2">20%</span>
+                        </div>
+                        <div class="skill-set">
+                            <span class="s-set">REACT</span>
+                            <span class="s-set-2">20%</span>
+                        </div>
+                        <div class="skill-set">
+                            <span class="s-set">GO</span>
+                            <span class="s-set-2">5%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-wrap">
+                    <span class="sect-top-3">CONTACT</span>
+                    <form class="form">
+                        <input class="form-input" type="text" placeholder="NAME" name="NAME" reuired>
+                        <input class="form-input" type="text" placeholder="EMAIL" name="EMAIL" reuired>
+                        <textarea class="form-input-3" type="text" placeholder="MESSAGE" name="MSG" reuired></textarea>
+                        <button class="send-m">SEND MESSAGE</button>
+                    </form>
+                </div>    
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
