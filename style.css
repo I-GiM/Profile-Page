@@ -62,6 +62,16 @@ body {
     font-weight: 700;
 }
 
+.bio.slack {
+    display: flex;
+    align-items: center;
+}
+
+.bio.slack::before {
+    content: url(https://bit.ly/34JrCjQ);
+    padding-right: 5px;
+}
+
 .socials {
     padding: 0.8em;
 }
